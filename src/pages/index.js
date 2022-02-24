@@ -1,5 +1,10 @@
 import React from "react"
 
-export default function Home() {
-  return <div>Hello world! 123</div>
+class App extends React.Component {
+  render() {
+    return (
+      <div>SSrererrS</div>
+    );
+  }
 }
+export default App
