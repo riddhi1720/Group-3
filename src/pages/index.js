@@ -1,10 +1,13 @@
 import React from "react"
+import Layout from "../components/Layout/Layout"
 
-class App extends React.Component {
+class Home extends React.Component {
   render() {
     return (
-      <div>SSrererrS</div>
-    );
+      <Layout>
+        <div>index page</div>
+      </Layout>
+    )
   }
 }
-export default App
+export default Home
